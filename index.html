@@ -18,12 +18,13 @@
         }
 
 
-        .t {
-            text-align: center;
-            color: white;
+        p {
+            text-align: left;
+            color: black;
             font-family: font, monospace;
-            font-size: 5vh;
+            font-size: 2vh;
             font-weight: 900;
+            margin: 3%;
         }
 
         .m {
@@ -33,44 +34,134 @@
             font-size: 3vh;
         }
 
-        div {
+        @font-face {
+            font-family: font;
+            src: url(font.otf);
+        }
+
+        .top {
+            background: url(background.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            float: left;
+        }
+
+        .bottom {
+            background: white;
+            position: absolute;
+            top: 100%;
+            height: 100%;
+            width: 100%;
+            float: left;
+
+        }
+
+        .center {
             position: absolute;
             top: 50%;
             transform: translate(0, -50%);
             width: 100%;
         }
 
-        @font-face {
-            font-family: font;
-            src: url(font.otf);
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: font, monospace;
+            font-size: 5vh;
+            font-weight: 900;
+            text-decoration: none;
         }
 
-        html {
-            background: url(background.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+        a:visited {
+            text-decoration: none;
+            color: white
         }
 
         body {
             height: 100%;
             margin: 0;
         }
+
+        html {
+            height: 200%;
+        }
     </style>
 </head>
 
 <body>
-    <div>
-        <p class="t">IZRADA U TOKU</p>
-        <a href="https://www.instagram.com/begluk.store/"><img src="logo.png"></a>
+    <div class="top">
+        <div class="center">
+            <h1 class="t">DOBRODOŠLI</h1>
+            <a href="https://www.instagram.com/begluk.store/"><img src="logo.png"></a>
 
-        <p class="t">
-            <a href="https://www.instagram.com/begluk.store/" class="t">OVDJE POGLEDAJTE NAŠ INSTAGRAM</a>
-        </p>
-        <p class="m">
-            Support mail: <a href="mailto:support@begluk.store" , class="m">support@begluk.store</a>
-        </p>
+            <h1 class="t">
+                <a href="https://www.instagram.com/begluk.store/" class="t">OVDJE POGLEDAJTE NAŠ INSTAGRAM</a>
+            </h1>
+            <h1 class="m">
+                Support mail: <a href="mailto:support@begluk.store" , class="m">support@begluk.store</a>
+            </h1>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <h1 style="color: black; margin: 4%">ŠTA NUDIMO</h1>
+        <div style="columns: 2">
+            <p>🔹Netflix HD 1 Mjesec🔹 : 5KM</p>
+            <p>Spotify Premium Lifetime🔹 : 14KM</p>
+            <p>🔹PUBG UC Cjenovnik:🔹<br>
+
+                💲60 UC - 3KM<br>
+                💲325 UC - 12KM<br>
+                💲660 UC - 20KM<br>
+                💲1800 UC - 45KM<br>
+                💲3850 UC - 95KM<br>
+                💲8100 UC - 190KM<br>
+
+                💲PUBG Mobile Season 21. Royale Pass - 20KM<br>
+                💲PUBG Mobile Season 21 Elite Royale Pass - 45KM</p>
+
+            <p>🔹Free Fire Diamonds:🔹<br>
+
+                💲110 Diamonds - 4KM<br>
+                💲231 Diamonds - 6KM<br>
+                💲583 Diamonds - 13KM<br>
+                💲1188 Diamonds - 23KM<br>
+                💲2420 Diamonds - 43KM</p>
+            <p> ✅Minecraft Premium KEY GLOBAL - 36KM </p>
+            <p>➤10€ Points - 22KM<br>
+                ➤20€ Points - 42KM<br>
+                ➤50€ Points - 102KM</p>
+
+            <p>🔹Steam Wallet:🔹<br>
+
+                ➤5 EUR - 13KM<br>
+                ➤10 EUR - 23KM<br>
+                ➤20 EUR - 44KM<br>
+                ➤50 EUR - 103KM<br>
+                ➤100 EUR - 203KM</p>
+
+                <p>🔹Fortnite V-Bucks🔹<br>
+                    ➤ 1000 V-Bucks 10KM<br>
+                    ➤2800 V-Bucks 22KM<br>
+                    ➤5000 V-Bucks 35KM<br>
+                    ➤13500 V-Bucks 80KM</p>
+
+<p>➤ Fortnite Graveyard Drift 20KM<br>
+    ➤ Batman Caped Crusader 20KM<br>
+    ➤ Skull Squad Pack 22KM<br>
+    ➤ The final reckoning 17KM<br>
+    ➤ Magma Masters 17KM<br>
+    ➤ The Last Laugh Bundle 30KM<br>
+</p>
+
+<p>➤ Fortnite Battle Pass : 10 KM</p>
+        </div>
     </div>
 </body>
 

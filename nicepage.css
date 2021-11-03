@@ -34827,16 +34827,20 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
     width: auto;
+    margin-top: -44px;
+    margin-right: -12px;
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 123px;
-  }
-
   .u-header .u-image-1 {
     width: 170px;
     height: 61px;
+    margin-top: 6px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -43px;
   }
 }
  .u-footer {
